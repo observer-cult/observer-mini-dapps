@@ -1,0 +1,12 @@
+{
+  "name": "@observer-mini-dapps/tier-gate",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": ["src"],
+  "dependencies": {
+    "@observer-mini-dapps/types": "^0.1.0",
+    "wagmi": "^2.5.0"
+  }
+}

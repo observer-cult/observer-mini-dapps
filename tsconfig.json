@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "references": [
+    { "path": "./packages/types" },
+    { "path": "./packages/api-client" },
+    { "path": "./packages/tier-gate" },
+    { "path": "./packages/ui" },
+    { "path": "./apps/token-radar" },
+    { "path": "./apps/cult-analytics" },
+    { "path": "./apps/alpha-scorer" },
+    { "path": "./apps/sentiment-map" }
+  ]
+}
